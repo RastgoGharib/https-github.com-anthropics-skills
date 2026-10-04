@@ -1,0 +1,20 @@
+{
+  "font": "Doran-Regular",
+  "fontSize": 64,
+  "maxWidth": 930,
+  "textColor": "#FFFFFF",
+  "keyColor": "#FFAE00",
+  "posX": 0.5,
+  "posY": 0.755,
+
+  "boxColor": "#121212",
+  "boxOpacity": 78,
+  "padX": 34,
+  "padY": 18,
+  "roundness": 22,
+  "shadow": { "opacity": 115, "direction": 180, "distance": 8, "softness": 38 },
+
+  "underline": { "color": "#FFAE00", "height": 5, "gap": 7, "slide": 0.08 },
+  "entrance": { "rise": 42, "duration": 0.34, "startScale": 92, "cascade": 0.42, "wordRise": 26, "wordBlur": 10 },
+  "motionBlur": true
+}

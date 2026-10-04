@@ -1,0 +1,24 @@
+# media / large files - never commit
+*.mp4
+*.mov
+*.MOV
+*.mkv
+*.avi
+*.wav
+*.mp3
+*.m4a
+*.aac
+*.prproj
+*.aep
+*.aepx
+*.ccx
+*.mogrt
+# secrets
+.env
+.env.*
+*.key
+*.pem
+# job folders produced by the skills
+*_edit/
+*_subtitles/
+check_*.png

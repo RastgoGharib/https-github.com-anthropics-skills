@@ -1,0 +1,16 @@
+{
+  "_note": "Sound 2 = values that differ from the defaults, normalized 0-1, stereo variant of the preset. Add effects in this order (they become components 2,3,4 after Volume 0 and Channel Volume 1), then write each value with automate_effect_parameters_uxp action:add_keyframe time_seconds:0. Verified read-back 2026-09-29.",
+  "order": ["Dynamics", "Parametric Equalizer", "Multiband Compressor"],
+  "Dynamics": { "component": 2, "params": { "6": 1, "8": 0.074073724449, "11": 0.434567600489 } },
+  "Parametric Equalizer": { "component": 3, "params": {
+    "1": 0.003963784315, "2": 0.621710538864, "3": 0.727191865444, "4": 0.64473682642,
+    "13": 0.011561249383, "14": 0.000149989995, "15": 0.509868443012, "29": 1,
+    "35": 0.019815906882, "38": 1, "39": 0.002502085175, "42": 0.74979197979 } },
+  "Multiband Compressor": { "component": 4, "params": {
+    "2": 0.663333296776, "3": 0.706666707993, "4": 0.586666703224, "5": 0.583333313465,
+    "6": 0.068965516984, "9": 0.068965516984, "10": 0.002000000095, "11": 0.002000000095,
+    "12": 0.002000000095, "13": 0.002000000095, "18": 0.527777791023, "21": 0.583333313465,
+    "34": 0.005855855998, "35": 0.056406404823, "36": 0.344844847918, "48": 0.5, "49": 0.800000011921 } },
+  "_meaning": "Dynamics: compressor on, threshold -20 dB, ratio 1.5, attack 1 ms, release 50 ms, makeup 10.4 dB. EQ 'Vocal Enhancer': HP 80 Hz, low shelf 115 Hz +11.7 dB, band3 297 Hz +0.9 dB, high shelf 17458 Hz +13.9 dB, ultra-quiet on. Multiband 'Broadcast': crossovers 137/1147/6910 Hz, thresholds -20.2/-17.6/-24.8/-25 dB, gains 1/0/0/3 dB, ratios 3/2/2/3, limiter -10 dB margin -1 dB brickwall.",
+  "_known_misses": "CrossOver Q (p33) and LMAX ratio (p50) are negative in the file and clamp to 0; p58 (LMAX mode) cannot be set."
+}
